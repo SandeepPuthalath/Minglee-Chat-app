@@ -1,0 +1,29 @@
+{
+  "name": "minglee",
+  "version": "1.0.0",
+  "description": "This simple chat application build using MERN Stack",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./server/app.js",
+    "dev": "nodemon ./server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SandeepPuthalath/Minglee-Chat-app.git"
+  },
+  "author": "Sandeep P D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SandeepPuthalath/Minglee-Chat-app/issues"
+  },
+  "homepage": "https://github.com/SandeepPuthalath/Minglee-Chat-app#readme",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
