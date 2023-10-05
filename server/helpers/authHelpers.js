@@ -9,7 +9,7 @@ module.exports = function authHelper(){
 
     const isUserExist = async (email) =>{
         const user = await User.findOne({email:email});
-        return user? user: {}
+        return user? user: false
     }
 
     const createUser = async (username, email, password) =>{
